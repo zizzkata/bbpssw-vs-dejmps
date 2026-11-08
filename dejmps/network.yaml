@@ -1,0 +1,25 @@
+links:
+- fidelity: 0.6
+  name: ch1
+  node_name1: delft
+  node_name2: the_hague
+  noise_type: Depolarise
+nodes:
+- gate_fidelity: 0.98
+  name: the_hague
+  qubits:
+  - id: 0
+    t1: 30000000000.0
+    t2: 1460000000.0
+  - id: 1
+    t1: 10000000000.0
+    t2: 1000000000.0
+- gate_fidelity: 0.98
+  name: delft
+  qubits:
+  - id: 0
+    t1: 30000000000.0
+    t2: 1460000000.0
+  - id: 1
+    t1: 10000000000.0
+    t2: 1000000000.0
